@@ -192,11 +192,6 @@ html[data-motion=off] .hero-title-line,html[data-motion=off] .hero-content>*{opa
 /* Main receives focus after same-document navigation; avoid a page-sized focus outline. */
 #main[tabindex="-1"]:focus-visible{outline:none}
 
-/* Hide the preview/release-details button throughout the website. */
-footer .release-note {
-  display: none !important;
-}
-
 /* R5: supplied original logo. Native aspect ratio, no upscaling or color filters. */
 .brand{gap:0;padding:1px 10px;background:transparent;border:0;border-radius:0;max-width:100%;text-decoration:none}
 .brand .brand-logo{display:block;width:210px;height:63px;max-width:100%;object-fit:contain;margin:0;border:0;border-radius:0;filter:none;transform:none}
@@ -206,3 +201,9 @@ footer .brand{padding:3px 12px;margin-bottom:4px;align-self:flex-start;backgroun
 .mobile-dialog .brand-logo{width:210px;height:63px}
 @media(max-width:1100px){.nav-wrap .brand{padding:1px 8px}.nav-wrap .brand-logo{width:190px;height:57px}}
 @media(max-width:380px){.nav-wrap .brand{padding:1px 6px}.nav-wrap .brand-logo{width:168px;height:50.4px}.mobile-dialog .brand-logo{width:180px;height:54px}}
+
+/* Hide the preview/release-details button throughout the website. */
+footer .release-note {
+  display: none !important;
+}
+
