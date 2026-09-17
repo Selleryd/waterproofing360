@@ -1,0 +1,220 @@
+[
+  {
+    "check": "Local links and assets index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets 404.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Local links and assets services/underslab-waterproofing/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO services/underslab-waterproofing/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets services/foundation-leaks/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO services/foundation-leaks/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets services/crack-injections/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO services/crack-injections/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets services/concrete-foundations/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO services/concrete-foundations/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets services/wet-area-waterproofing/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO services/wet-area-waterproofing/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets services/drainage-systems/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO services/drainage-systems/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets blog/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO blog/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets blog/exterior-vs-interior-waterproofing/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO blog/exterior-vs-interior-waterproofing/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets blog/basement-water-after-rain/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO blog/basement-water-after-rain/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets blog/shower-waterproofing-beneath-tile/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO blog/shower-waterproofing-beneath-tile/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets blog/basement-condensation-vs-leaks/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO blog/basement-condensation-vs-leaks/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets blog/waterproofing-consultation-checklist/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO blog/waterproofing-consultation-checklist/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets blog/french-drain-vs-trench-drain/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO blog/french-drain-vs-trench-drain/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets blog/foundation-crack-injection/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO blog/foundation-crack-injection/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets blog/underslab-waterproofing-planning/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO blog/underslab-waterproofing-planning/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets contact/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO contact/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Local links and assets gallery/index.html",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Semantic page and preview SEO gallery/index.html",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All 18 page titles and descriptions unique",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Eight full sourced guides",
+    "passed": true,
+    "details": {
+      "words": 5838,
+      "count": 8
+    }
+  },
+  {
+    "check": "JavaScript parses app.js",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "JavaScript parses house3d.js",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "No bundled fonts or secrets",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "No false review ratings or prototype marketing copy in pages",
+    "passed": true,
+    "details": null
+  }
+]

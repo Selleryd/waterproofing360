@@ -1,0 +1,82 @@
+{
+  "epa": {
+    "name": "U.S. EPA \u2014 A Brief Guide to Mold, Moisture and Your Home",
+    "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  "grade": {
+    "name": "Building America Solution Center \u2014 Final Grade Slopes Away from Foundation",
+    "url": "https://basc.pnnl.gov/resource-guides/final-grade-slopes-away-foundation"
+  },
+  "ground": {
+    "name": "Building Science Corporation \u2014 Groundwater Control, Info-101",
+    "url": "https://buildingscience.com/documents/information-sheets/groundwater-control"
+  },
+  "basements": {
+    "name": "Building Science Corporation \u2014 Understanding Basements, BSD-103",
+    "url": "https://buildingscience.com/documents/digests/bsd-103-understanding-basements"
+  },
+  "cdc": {
+    "name": "CDC \u2014 Safety Guidelines: Reentering Your Flooded Home",
+    "url": "https://www.cdc.gov/floods/safety/reentering-your-flooded-home-safety.html"
+  },
+  "french": {
+    "name": "NDS \u2014 French Drain Installation Guide",
+    "url": "https://www.ndspro.com/us/en/resources/articles/french-drain-installation-guide"
+  },
+  "channel": {
+    "name": "NDS \u2014 12-inch Pro Series Channel Drains",
+    "url": "https://www.ndspro.com/us/en/products/drainage/channel-trench-drains/12-in-pro-series-channel-drains"
+  },
+  "sump": {
+    "name": "Building America Solution Center \u2014 Drains and Sump Pumps",
+    "url": "https://basc.pnnl.gov/resource-guides/drain-or-sump-pump-installed-basements-or-crawlspaces"
+  },
+  "injection": {
+    "name": "Sika \u2014 Injection Technologies and Their Applications",
+    "url": "https://www.sika.com/en/construction/injections.html"
+  },
+  "epoxy": {
+    "name": "Sika \u2014 Multi-Purpose Epoxies",
+    "url": "https://www.sika.com/content/us/main/en/construction/repair-protection/multi-purpose-epoxies.html"
+  },
+  "slab": {
+    "name": "Building America Solution Center \u2014 Capillary Break Beneath Slab",
+    "url": "https://basc.pnnl.gov/resource-guides/capillary-break-beneath-slab-polyethylene-sheeting-or-rigid-insulation-over"
+  },
+  "foundation": {
+    "name": "U.S. DOE / ORNL \u2014 Builders Foundation Handbook, Slab Foundations",
+    "url": "https://foundationhandbook-qa.ornl.gov/handbook/section4-1.shtml"
+  },
+  "wet": {
+    "name": "Schluter Systems \u2014 Waterproof Shower",
+    "url": "https://www.schluter.com/schluter-us/en_US/Waterproof-Shower"
+  },
+  "water-test": {
+    "name": "Schluter Systems \u2014 What Is a Water Test?",
+    "url": "https://www.schluter.com/schluter-us/en_US/faq/shower-system-water-test-how-to"
+  },
+  "kerdi": {
+    "name": "Schluter Systems \u2014 KERDI Waterproofing Membrane",
+    "url": "https://www.schluter.com/schluter-us/en_US/Membranes/Waterproofing-%28KERDI%29/Schluter-KERDI/p/KERDI"
+  },
+  "humidity": {
+    "name": "U.S. EPA \u2014 Mold Course, Chapter 2: Moisture and Humidity",
+    "url": "https://www.epa.gov/mold/mold-course-chapter-2"
+  },
+  "salts": {
+    "name": "The Concrete Society \u2014 Salt Efflorescence",
+    "url": "https://www.concrete.org.uk/fingertips/salt-efflorescence/"
+  },
+  "floor": {
+    "name": "Building America Solution Center \u2014 Water Management of Existing Basement Floors",
+    "url": "https://basc.pnnl.gov/resource-guides/water-management-existing-basement-floor"
+  },
+  "fema": {
+    "name": "FEMA / National Flood Insurance Program \u2014 Minimize Flood Damage",
+    "url": "https://www.floodsmart.gov/prepare/minimize-damage"
+  },
+  "coating": {
+    "name": "U.S. DOE \u2014 Concrete Foundation Walls: Damp-Proofing and Waterproofing",
+    "url": "https://bsesc.energy.gov/energy-basics/concrete-foundation-walls-damp-proofed-and-waterproofed"
+  }
+}

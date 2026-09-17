@@ -1,0 +1,123 @@
+{
+  "basis": "WATERPROOFING360_R4_GITHUB.zip",
+  "archive_sha256": "6a86535b55e8417ba498814c1c70ea1bd3fa2dfae3a82a7dbd98da7a1a87cacc",
+  "unchanged": [
+    {
+      "path": "assets/concrete.webp",
+      "sha256": "13ed2aea78e85bbe344209073c3aeaab20ca0b641a011d34d6497369a7671fd3"
+    },
+    {
+      "path": "assets/cracks.webp",
+      "sha256": "dbc782344c1d32dcc2045799104c65aad0e1cc9590332b7b1a92ccfcc0ab8cd4"
+    },
+    {
+      "path": "assets/cutaway.webp",
+      "sha256": "2124d69e224d7e6f814517a51b5466fb0f6ec1495c83e5b54c17c10ff4d477c3"
+    },
+    {
+      "path": "assets/drainage.webp",
+      "sha256": "738222805d23798cc90c35ec2a68cf37d63d789f569f487fd9265de5ddda4779"
+    },
+    {
+      "path": "assets/evening.webp",
+      "sha256": "186e13c025c18c7694c7449d74efea9d52e2694eb0f8cca2400f56d4b91f029b"
+    },
+    {
+      "path": "assets/foundation.webp",
+      "sha256": "f7a4c49d0311f093040700969baf0e7ca542bd733a32ecf6dd68a753cc95edd3"
+    },
+    {
+      "path": "assets/hero-mobile.webp",
+      "sha256": "aa577bc8982848c29b9c3c491281782935326a65cc91e1712614f398d9cfc3df"
+    },
+    {
+      "path": "assets/hero.webp",
+      "sha256": "39743b5160c79856a25f6ca1d06d010154eaef43d426ff8aa736b3bf6bfc0eee"
+    },
+    {
+      "path": "assets/project-concrete.webp",
+      "sha256": "ade56d036e0331ac2338b8d48e8dac21c429df2acdb9d3a04cde10b15729a0e0"
+    },
+    {
+      "path": "assets/project-cracks.webp",
+      "sha256": "15dda8b975761191133e3f699b4d3c0920bb9d69012cf51f3a5e709d3e245243"
+    },
+    {
+      "path": "assets/project-drainage.webp",
+      "sha256": "0bb87fae3ad6fdb1244673c689a557a8ef3c5f11a86a3dc802e2944985aafa5c"
+    },
+    {
+      "path": "assets/project-foundation.webp",
+      "sha256": "ad35164087a9b281dfdc08819f7c440349e1b55dba43e453cd6f2c8178853690"
+    },
+    {
+      "path": "assets/project-other.webp",
+      "sha256": "f8ddf746908d2a096a157006b0d7e0e5f1ccc694ddac7d42bc7857d2ed32b6b4"
+    },
+    {
+      "path": "assets/project-underslab.webp",
+      "sha256": "732cb632d61cd74ba70daa455ccb0de0ed9a34ddc04dc946755cc6e09c01c200"
+    },
+    {
+      "path": "assets/project-wetareas.webp",
+      "sha256": "f54632c92ccfc1c08afac1c1fc449bdd17a291aefca4fc989acda320863066ad"
+    },
+    {
+      "path": "assets/underslab.webp",
+      "sha256": "1825f69886c3ffc4f726461454860562aabc2641893ba829e2a9c30d262e9955"
+    },
+    {
+      "path": "assets/wetarea.webp",
+      "sha256": "6c7b1fbf5c4540220d648c3072bc8528c92dc84703bbc35473fcc719821187f6"
+    },
+    {
+      "path": "content/articles.json",
+      "sha256": "0ffe4962b93f3000fac0b7bfac7f863cf0aa0d279385bc04c86e83045c42e90f"
+    },
+    {
+      "path": "content/basement-condensation-vs-leaks.md",
+      "sha256": "278e4025e3571698559a22befddf30e7e9db72306205f827984c46ab42134516"
+    },
+    {
+      "path": "content/basement-water-after-rain.md",
+      "sha256": "a622e986f80dca7a10a11ff4671b39bdb537cae4c0b3de22142f655c0da6e387"
+    },
+    {
+      "path": "content/exterior-vs-interior-waterproofing.md",
+      "sha256": "6054b5914743b43c02eca5eae8ca006a6ce6f9ee1a7fb01c7184693dc762636b"
+    },
+    {
+      "path": "content/foundation-crack-injection.md",
+      "sha256": "5bd549a1a1817532eb77c3a0200706769e9f32f7dca0b26bd0fda6fdb0233af9"
+    },
+    {
+      "path": "content/french-drain-vs-trench-drain.md",
+      "sha256": "45605397b487edd5f3f8c2d8b9b6554662f01e09811bd36cf6138df4a7f9790c"
+    },
+    {
+      "path": "content/galleries.json",
+      "sha256": "e9011208d5717c4732c9465e5584490172c18fea9a98a54e3b260f36cbe8ddc5"
+    },
+    {
+      "path": "content/services.json",
+      "sha256": "94852ea36777be3daddfbfe4b65fd26231e914c179a5d01a2d368d24ce3a387a"
+    },
+    {
+      "path": "content/shower-waterproofing-beneath-tile.md",
+      "sha256": "160ccbc5598b57d4519845b1a27e56c51925d8451b883ff80fa5d82992c276b9"
+    },
+    {
+      "path": "content/sources.json",
+      "sha256": "c8ee48c4e202c9e9787da1f98d2ca83cd6acdd65b0d4251d6361588f28c20fd3"
+    },
+    {
+      "path": "content/underslab-waterproofing-planning.md",
+      "sha256": "53c1c96709a9a14755d026c5d448940f7f1c0bb78165c6cbdf531e10349082ce"
+    },
+    {
+      "path": "content/waterproofing-consultation-checklist.md",
+      "sha256": "e91c37fc2f1dda042652b0de90c44dd4739771b9a8b30a6f452c9858ed7f77e5"
+    }
+  ],
+  "supplied_logo_sha256": "286796b3e2cf27fa57b221d9ab782ccd6dbd0a1860ad3b3870578c4461d51f66"
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "check": "Preview exactly matches source route /",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /blog/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /contact/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /gallery/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /services/foundation-leaks/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /services/drainage-systems/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /services/concrete-foundations/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /services/crack-injections/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /services/underslab-waterproofing/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /services/wet-area-waterproofing/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /blog/basement-water-after-rain/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /blog/exterior-vs-interior-waterproofing/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /blog/french-drain-vs-trench-drain/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /blog/foundation-crack-injection/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /blog/underslab-waterproofing-planning/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /blog/shower-waterproofing-beneath-tile/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /blog/basement-condensation-vs-leaks/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Preview exactly matches source route /blog/waterproofing-consultation-checklist/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Offline preview embeds all initial runtime dependencies",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Preview metadata cannot be indexed",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Production configuration completes in scratch copy",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All 18 production pages use configured origin and indexability",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Sitemap has 18 absolute configured URLs",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Offline review remains noindex after production build",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "GitHub project-relative asset paths retained",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Invalid production URL is rejected http://example.org",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Invalid production URL is rejected https://example.org/?private=token",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Invalid production URL is rejected https://credentials@example.org",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Original source indexing stays disabled",
+    "passed": true,
+    "details": null
+  }
+]

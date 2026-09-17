@@ -1,0 +1,32 @@
+[
+  {
+    "check": "Reduced-motion user starts with effects disabled",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Explicit user Play overrides reduced-motion default",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "User can pause again",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Static Gallery source has correct active nav",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Static Gallery source renders all original links",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Gallery headings wrap without clipping at enlarged text",
+    "passed": true,
+    "details": null
+  }
+]

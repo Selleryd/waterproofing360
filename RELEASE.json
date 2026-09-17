@@ -1,0 +1,25 @@
+{
+  "project": "Waterproofing360",
+  "release": "5.0.0",
+  "name": "Original company logo and default motion",
+  "created_at": "2026-09-17T16:26:54.668255+00:00",
+  "source": "Approved WATERPROOFING360_R4_GITHUB.zip",
+  "source_archive_sha256": "6a86535b55e8417ba498814c1c70ea1bd3fa2dfae3a82a7dbd98da7a1a87cacc",
+  "routes": 18,
+  "articles": 8,
+  "original_galleries": 7,
+  "published": false,
+  "github_pushed": false,
+  "preview": "OPEN_PREVIEW.html",
+  "local_checks_passed": 943,
+  "local_checks_failed": 0,
+  "live_3d_defaults": {
+    "rain": true,
+    "orbit": true,
+    "respects_reduced_motion": true
+  },
+  "hero_pause_button": false,
+  "uploaded_logo_unchanged": true,
+  "external_album_rendering_verified": false,
+  "hardware_webgl_verified": false
+}

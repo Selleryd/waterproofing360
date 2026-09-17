@@ -1,0 +1,42 @@
+[
+  {
+    "suite": "r5",
+    "exit_code": 0,
+    "duration_seconds": 28.24
+  },
+  {
+    "suite": "static",
+    "exit_code": 0,
+    "duration_seconds": 1.37
+  },
+  {
+    "suite": "regression-small",
+    "exit_code": 0,
+    "duration_seconds": 23.78
+  },
+  {
+    "suite": "regression-wide",
+    "exit_code": 0,
+    "duration_seconds": 22.62
+  },
+  {
+    "suite": "advanced",
+    "exit_code": 0,
+    "duration_seconds": 8.56
+  },
+  {
+    "suite": "gallery-nav",
+    "exit_code": 0,
+    "duration_seconds": 13.74
+  },
+  {
+    "suite": "final",
+    "exit_code": 0,
+    "duration_seconds": 3.14
+  },
+  {
+    "suite": "packaging",
+    "exit_code": 0,
+    "duration_seconds": 4.3
+  }
+]

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Review release: HTML pages carry noindex until a production origin is configured.

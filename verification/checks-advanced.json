@@ -1,0 +1,133 @@
+[
+  {
+    "check": "Animated exploded layers settle toward the target",
+    "passed": true,
+    "details": {
+      "renderer": "canvas3d",
+      "explode": 0.5999021887347876,
+      "goal": 0.6,
+      "yaw": 0.8197749999999993,
+      "distance": 21,
+      "vertices": 15300
+    }
+  },
+  {
+    "check": "Reset restores cutaway, camera and enabled rain/orbit defaults",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Pointer drag orbits the real model",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Canvas keyboard rotates",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Default rain can be switched off",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Rain can be re-enabled",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Rain animation advances",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Re-enabled auto orbit changes camera",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Manual rotation cancels auto orbit",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Global motion setting stops animation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reduced motion prevents optional animated rain",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model traps forward focus",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model releases lock",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Image view pauses 3D rendering",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D render completes",
+    "passed": true,
+    "details": {
+      "milliseconds_single_frame": 19.5,
+      "renderer": "canvas3d",
+      "not_a_cross_device_FPS_benchmark": true
+    }
+  },
+  {
+    "check": "Leaving the house disposes renderer resources",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Site search keyboard shortcut",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service CTA carries a preset",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "In-area result is qualified without an outside-area warning",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Actual project brief download event",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide back retains previous answer",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "No-graphics fallback preserves accessible detailed view",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Fallback retains all service-zone controls",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Advanced interactions have no uncaught exceptions",
+    "passed": true,
+    "details": []
+  }
+]

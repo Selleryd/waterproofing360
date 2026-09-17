@@ -1,0 +1,787 @@
+[
+  {
+    "check": "Original supplied logo byte-for-byte",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/concrete.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/cracks.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/cutaway.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/drainage.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/evening.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/foundation.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/hero-mobile.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/hero.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/project-concrete.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/project-cracks.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/project-drainage.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/project-foundation.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/project-other.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/project-underslab.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/project-wetareas.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/underslab.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: assets/wetarea.webp",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/articles.json",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/basement-condensation-vs-leaks.md",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/basement-water-after-rain.md",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/exterior-vs-interior-waterproofing.md",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/foundation-crack-injection.md",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/french-drain-vs-trench-drain.md",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/galleries.json",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/services.json",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/shower-waterproofing-beneath-tile.md",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/sources.json",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/underslab-waterproofing-planning.md",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "R4 asset/content preserved: content/waterproofing-consultation-checklist.md",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /blog/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /contact/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /gallery/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /services/foundation-leaks/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /services/drainage-systems/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /services/concrete-foundations/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /services/crack-injections/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /services/underslab-waterproofing/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /services/wet-area-waterproofing/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /blog/basement-water-after-rain/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /blog/exterior-vs-interior-waterproofing/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /blog/french-drain-vs-trench-drain/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /blog/foundation-crack-injection/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /blog/underslab-waterproofing-planning/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /blog/shower-waterproofing-beneath-tile/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /blog/basement-condensation-vs-leaks/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "All brand placements use original PNG: /blog/waterproofing-consultation-checklist/",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Hero Pause effects control removed from source and preview",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Homepage Rain and Orbit controls selected before JS initialization",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Favicon reuses uploaded pixels rather than prior replacement artwork",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Exact logo fits responsive header 320x740",
+    "passed": true,
+    "details": {
+      "w": 320,
+      "sw": 320,
+      "logoW": 168,
+      "logoH": 50.390625,
+      "naturalW": 300,
+      "naturalH": 90,
+      "brandRight": 210,
+      "controlsLeft": 252,
+      "navBottom": 80.390625,
+      "within": true
+    }
+  },
+  {
+    "check": "Hero effects on without hero pause button 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Mobile logo and menu remain in frame 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Exact logo fits responsive header 390x844",
+    "passed": true,
+    "details": {
+      "w": 390,
+      "sw": 390,
+      "logoW": 190,
+      "logoH": 57,
+      "naturalW": 300,
+      "naturalH": 90,
+      "brandRight": 236,
+      "controlsLeft": 322,
+      "navBottom": 87,
+      "within": true
+    }
+  },
+  {
+    "check": "Hero effects on without hero pause button 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Mobile logo and menu remain in frame 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Live 3D starts raining and orbiting 390",
+    "passed": true,
+    "details": {
+      "rain": true,
+      "orbit": true,
+      "motion": true,
+      "yaw": 0.6698050000000001,
+      "time": 0.3987000000000003,
+      "mode": "cutaway",
+      "renderer": "canvas3d",
+      "visible": true,
+      "rainButton": "true",
+      "orbitButton": "true"
+    }
+  },
+  {
+    "check": "Rain timeline and camera advance by default 390",
+    "passed": true,
+    "details": {
+      "before": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.6698050000000001,
+        "time": 0.3987000000000003,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      },
+      "after": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.7073050000000004,
+        "time": 0.6487000000000004,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      }
+    }
+  },
+  {
+    "check": "Rain toggle turns off only rain 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Orbit toggle turns off only orbit 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reset restores both enabled defaults 390",
+    "passed": true,
+    "details": {
+      "rain": true,
+      "orbit": true,
+      "motion": true,
+      "yaw": 0.61,
+      "time": 1.0654000000000006,
+      "mode": "cutaway",
+      "renderer": "canvas3d",
+      "visible": true,
+      "rainButton": "true",
+      "orbitButton": "true"
+    }
+  },
+  {
+    "check": "Manual camera control pauses orbit and retains rain 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Keyboard Home restores both defaults 390",
+    "passed": true,
+    "details": {
+      "rain": true,
+      "orbit": true,
+      "motion": true,
+      "yaw": 0.61,
+      "time": 1.2319000000000009,
+      "mode": "cutaway",
+      "renderer": "canvas3d",
+      "visible": true,
+      "rainButton": "true",
+      "orbitButton": "true"
+    }
+  },
+  {
+    "check": "Keyboard rotation synchronizes Orbit selection 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Detailed view suspends live renderer 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reopening Live 3D retains enabled effects 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Gallery still has seven distinct albums 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Returning home reinitializes Live 3D defaults 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Footer accessibility setting stops effects 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Footer re-enable restores default motion 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Header logo returns home 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Footer original logo readable at native aspect 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "No uncaught exceptions 390",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Exact logo fits responsive header 568x320",
+    "passed": true,
+    "details": {
+      "w": 568,
+      "sw": 568,
+      "logoW": 190,
+      "logoH": 57,
+      "naturalW": 300,
+      "naturalH": 90,
+      "brandRight": 236,
+      "controlsLeft": 500,
+      "navBottom": 87,
+      "within": true
+    }
+  },
+  {
+    "check": "Hero effects on without hero pause button 568",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Mobile logo and menu remain in frame 568",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Exact logo fits responsive header 768x1024",
+    "passed": true,
+    "details": {
+      "w": 768,
+      "sw": 768,
+      "logoW": 190,
+      "logoH": 57,
+      "naturalW": 300,
+      "naturalH": 90,
+      "brandRight": 250.046875,
+      "controlsLeft": 685.953125,
+      "navBottom": 103,
+      "within": true
+    }
+  },
+  {
+    "check": "Hero effects on without hero pause button 768",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Mobile logo and menu remain in frame 768",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Exact logo fits responsive header 1100x900",
+    "passed": true,
+    "details": {
+      "w": 1100,
+      "sw": 1100,
+      "logoW": 190,
+      "logoH": 57,
+      "naturalW": 300,
+      "naturalH": 90,
+      "brandRight": 260,
+      "controlsLeft": 1008,
+      "navBottom": 103,
+      "within": true
+    }
+  },
+  {
+    "check": "Hero effects on without hero pause button 1100",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Mobile logo and menu remain in frame 1100",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Exact logo fits responsive header 1101x900",
+    "passed": true,
+    "details": {
+      "w": 1101,
+      "sw": 1101,
+      "logoW": 210,
+      "logoH": 63,
+      "naturalW": 300,
+      "naturalH": 90,
+      "brandRight": 284.03125,
+      "controlsLeft": 453.59375,
+      "navBottom": 109,
+      "within": true
+    }
+  },
+  {
+    "check": "Hero effects on without hero pause button 1101",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Desktop solutions menu works 1101",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Exact logo fits responsive header 1440x900",
+    "passed": true,
+    "details": {
+      "w": 1440,
+      "sw": 1440,
+      "logoW": 210,
+      "logoH": 63,
+      "naturalW": 300,
+      "naturalH": 90,
+      "brandRight": 299.203125,
+      "controlsLeft": 713.28125,
+      "navBottom": 109,
+      "within": true
+    }
+  },
+  {
+    "check": "Hero effects on without hero pause button 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Desktop solutions menu works 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Live 3D starts raining and orbiting 1440",
+    "passed": true,
+    "details": {
+      "rain": true,
+      "orbit": true,
+      "motion": true,
+      "yaw": 0.66478,
+      "time": 0.3652000000000003,
+      "mode": "cutaway",
+      "renderer": "canvas3d",
+      "visible": true,
+      "rainButton": "true",
+      "orbitButton": "true"
+    }
+  },
+  {
+    "check": "Rain timeline and camera advance by default 1440",
+    "passed": true,
+    "details": {
+      "before": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.66478,
+        "time": 0.3652000000000003,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      },
+      "after": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.7047850000000001,
+        "time": 0.6319000000000002,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      }
+    }
+  },
+  {
+    "check": "Rain toggle turns off only rain 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Orbit toggle turns off only orbit 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reset restores both enabled defaults 1440",
+    "passed": true,
+    "details": {
+      "rain": true,
+      "orbit": true,
+      "motion": true,
+      "yaw": 0.6224949999999998,
+      "time": 2.381799999999999,
+      "mode": "cutaway",
+      "renderer": "canvas3d",
+      "visible": true,
+      "rainButton": "true",
+      "orbitButton": "true"
+    }
+  },
+  {
+    "check": "Manual camera control pauses orbit and retains rain 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Keyboard Home restores both defaults 1440",
+    "passed": true,
+    "details": {
+      "rain": true,
+      "orbit": true,
+      "motion": true,
+      "yaw": 0.617515,
+      "time": 2.8485,
+      "mode": "cutaway",
+      "renderer": "canvas3d",
+      "visible": true,
+      "rainButton": "true",
+      "orbitButton": "true"
+    }
+  },
+  {
+    "check": "Keyboard rotation synchronizes Orbit selection 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Detailed view suspends live renderer 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reopening Live 3D retains enabled effects 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Gallery still has seven distinct albums 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Returning home reinitializes Live 3D defaults 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Footer accessibility setting stops effects 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Footer re-enable restores default motion 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Header logo returns home 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Footer original logo readable at native aspect 1440",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "No uncaught exceptions 1440",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Exact logo fits responsive header 1920x1080",
+    "passed": true,
+    "details": {
+      "w": 1920,
+      "sw": 1920,
+      "logoW": 210,
+      "logoH": 63,
+      "naturalW": 300,
+      "naturalH": 90,
+      "brandRight": 526,
+      "controlsLeft": 966.484375,
+      "navBottom": 109,
+      "within": true
+    }
+  },
+  {
+    "check": "Hero effects on without hero pause button 1920",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Desktop solutions menu works 1920",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reduced motion disables hero animation automatically",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reduced motion disables live rain/orbit and unselects controls",
+    "passed": true,
+    "details": {
+      "rain": false,
+      "orbit": false,
+      "motion": false,
+      "yaw": 0.61,
+      "time": 0,
+      "mode": "cutaway",
+      "renderer": "canvas3d",
+      "visible": true,
+      "rainButton": "false",
+      "orbitButton": "false"
+    }
+  },
+  {
+    "check": "Reset respects reduced motion",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Deliberate footer Motion on permits animation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Live OS setting change stops all effects",
+    "passed": true,
+    "details": null
+  }
+]

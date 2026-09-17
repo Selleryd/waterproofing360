@@ -1,0 +1,74 @@
+[
+  {
+    "check": "Main page content preserved except requested controls: /",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /blog/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /contact/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /gallery/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /services/foundation-leaks/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /services/drainage-systems/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /services/concrete-foundations/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /services/crack-injections/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /services/underslab-waterproofing/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /services/wet-area-waterproofing/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /blog/basement-water-after-rain/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /blog/exterior-vs-interior-waterproofing/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /blog/french-drain-vs-trench-drain/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /blog/foundation-crack-injection/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /blog/underslab-waterproofing-planning/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /blog/shower-waterproofing-beneath-tile/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /blog/basement-condensation-vs-leaks/",
+    "passed": true
+  },
+  {
+    "check": "Main page content preserved except requested controls: /blog/waterproofing-consultation-checklist/",
+    "passed": true
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "foundation",
+    "slug": "foundation-leaks",
+    "name": "Foundation leaks",
+    "tag": "Start at the source",
+    "title": "A leak is a clue.<br>Look at the whole picture.",
+    "image": "foundation",
+    "summary": "Understand where water is entering, the conditions around the wall, and the protection your space needs.",
+    "body": "A recurring wet corner changes how you use a basement. Start with the pattern: where water appears, when it arrives, and how the surrounding property handles it. Bring the visible leak into a wider conversation about the foundation, access, drainage, and existing repairs.",
+    "details": [
+      [
+        "The water path",
+        "Describe the affected wall or floor edge, rain patterns, and any changes you have noticed."
+      ],
+      [
+        "The surrounding site",
+        "Bring photos of accessible grading, downspouts, window wells, and nearby paving."
+      ],
+      [
+        "The proposed scope",
+        "Ask which water paths the work is intended to address and what remains outside the proposal."
+      ],
+      [
+        "Life after the work",
+        "Discuss restoration, future finishing plans, access, maintenance, and written terms."
+      ]
+    ],
+    "article": "basement-water-after-rain"
+  },
+  {
+    "id": "drainage",
+    "slug": "drainage-systems",
+    "name": "French & trench drains",
+    "tag": "Give water a direction",
+    "title": "A better path<br>for the water.",
+    "image": "drainage",
+    "summary": "Bring surface runoff, subsurface collection, and the final discharge into one clear drainage plan.",
+    "body": "Where water collects matters. So does where it goes next. French drains and grated channel drains address different collection needs. The starting point is a site-specific conversation about runoff, below-grade conditions, access, and a suitable outlet—not simply choosing a drain by name.",
+    "details": [
+      [
+        "Collection",
+        "Show where water pools or crosses a surface, and whether the concern is above or below grade."
+      ],
+      [
+        "Conveyance",
+        "Ask how the collection points connect and how existing buried drainage will be evaluated."
+      ],
+      [
+        "Discharge",
+        "Clarify the destination and who confirms the applicable local requirements."
+      ],
+      [
+        "Maintenance",
+        "Understand what must remain accessible, how the system is checked, and who restores the site."
+      ]
+    ],
+    "article": "french-drain-vs-trench-drain"
+  },
+  {
+    "id": "concrete",
+    "slug": "concrete-foundations",
+    "name": "Concrete foundations",
+    "tag": "Consider it early",
+    "title": "Build confidence<br>below grade.",
+    "image": "concrete",
+    "summary": "Coordinate concrete foundation protection while the plans, surfaces, and construction sequence can still be shaped.",
+    "body": "The best-looking room begins with decisions made long before its finishes. For a below-grade concrete project, discuss the wall and slab assemblies, water-management approach, transitions, and construction timing together. Keep important details visible until they have been addressed.",
+    "details": [
+      [
+        "Current plans",
+        "Bring the latest drawings, site information, and any specified waterproofing details."
+      ],
+      [
+        "Transitions",
+        "Identify wall-to-slab connections, penetrations, joints, changes of level, and adjacent assemblies."
+      ],
+      [
+        "Trade coordination",
+        "Agree who owns each detail and what must be checked before it is covered."
+      ],
+      [
+        "Documentation",
+        "Ask for the final scope, product information, installation records, and pre-cover photographs."
+      ]
+    ],
+    "article": "underslab-waterproofing-planning"
+  },
+  {
+    "id": "cracks",
+    "slug": "crack-injections",
+    "name": "Crack injections",
+    "tag": "Understand the opening",
+    "title": "Small opening.<br>Important questions.",
+    "image": "cracks",
+    "summary": "Separate a water-sealing objective from a structural concern before discussing a targeted repair.",
+    "body": "A visible crack is a starting point, not a diagnosis. Its location, material, history, moisture pattern, and any movement all belong in the assessment. Ask what a proposed injection is designed to achieve and whether additional evaluation is needed.",
+    "details": [
+      [
+        "Context",
+        "Photograph the entire wall as well as the opening. Include older photos or repair records when available."
+      ],
+      [
+        "History",
+        "Record when you first noticed it, any visible change, and the conditions when water appears."
+      ],
+      [
+        "Repair objective",
+        "Clarify whether the proposal addresses leakage, structural performance, or an assessed combination."
+      ],
+      [
+        "Limitations",
+        "Ask what the repair does not cover and when a structural professional should be involved."
+      ]
+    ],
+    "article": "foundation-crack-injection"
+  },
+  {
+    "id": "underslab",
+    "slug": "underslab-waterproofing",
+    "name": "Underslab & wraps",
+    "tag": "Plan the hidden layers",
+    "title": "Before the pour.<br>Beyond the surface.",
+    "image": "underslab",
+    "summary": "Bring underslab moisture protection and waterproofing wraps into the project before access becomes limited.",
+    "body": "The layers beneath a slab do different jobs. Clarify vapor control, capillary breaks, and any required waterproofing performance with the project team. Then coordinate the selected assembly, its penetrations, protection during construction, and inspection before it disappears.",
+    "details": [
+      [
+        "Performance",
+        "Ask which moisture conditions the specified assembly is intended to address."
+      ],
+      [
+        "Continuity",
+        "Coordinate edges, columns, pits, and service penetrations—not only the open field of the slab."
+      ],
+      [
+        "Sequence",
+        "Discuss readiness, protection from damage, and checks before concrete or backfill conceals the work."
+      ],
+      [
+        "Handover",
+        "Retain the drawings, material information, approved changes, and photographs of completed details."
+      ]
+    ],
+    "article": "underslab-waterproofing-planning"
+  },
+  {
+    "id": "wetareas",
+    "slug": "wet-area-waterproofing",
+    "name": "Showers, spas & pools",
+    "tag": "Protect the beautiful finish",
+    "title": "Beauty above.<br>Consideration beneath.",
+    "image": "wetarea",
+    "summary": "Plan the waterproofing conversation for showers, spas, mikvahs, and pools around the actual use of the space.",
+    "body": "A refined finish is only one part of a wet-area project. Bring the intended exposure, heat or steam conditions, substrate, drain connections, and construction stage into the conversation. Each type of space needs its own suitability assessment; a shower detail is not automatically a pool detail.",
+    "details": [
+      [
+        "Intended use",
+        "Describe the room, expected water exposure, and any specialty operating conditions."
+      ],
+      [
+        "Complete assembly",
+        "Discuss floors, walls, corners, entrances, penetrations, and the drain as connected details."
+      ],
+      [
+        "Coordination",
+        "Confirm the responsibilities of the design team and installation trades before finishes are ordered."
+      ],
+      [
+        "Verification",
+        "Discuss the specified system’s inspection or testing procedure and the records provided before concealment."
+      ]
+    ],
+    "article": "shower-waterproofing-beneath-tile"
+  }
+]

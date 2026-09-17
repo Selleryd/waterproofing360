@@ -1,0 +1,1602 @@
+[
+  {
+    "check": "Homepage images 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Homepage horizontal layout 320",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Hero scene toggle 320",
+    "passed": true,
+    "details": [
+      {
+        "key": "exterior",
+        "on": "false"
+      },
+      {
+        "key": "cutaway",
+        "on": "true"
+      }
+    ]
+  },
+  {
+    "check": "Photo hotspot 320/0",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 320/1",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 320/2",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 320/3",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 320/4",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Explorer keyboard 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Real 3D model initialized 320",
+    "passed": true,
+    "details": {
+      "renderer": "canvas3d",
+      "vertices": 15300,
+      "mode": "cutaway",
+      "yaw": 0.61,
+      "distance": 21
+    }
+  },
+  {
+    "check": "3D rotation changes camera 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D zoom changes perspective 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D exterior mode 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D exploded mode 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D cutaway mode 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reduced-motion model 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model opens 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model closes 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Builder pathway 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Specialty pathway 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide requires choice 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide out-of-area qualification 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide copy fallback 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide generated brief content 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Existing external inquiry link 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide closes without body lock 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Mobile menu opens 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal all eight guides 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal images 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal layout 320",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Journal topic search 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal no-results state 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal reset 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal category filter 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article route 320/basement-water-after-rain",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 320/basement-water-after-rain",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Article route 320/exterior-vs-interior-waterproofing",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 320/exterior-vs-interior-waterproofing",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Article route 320/french-drain-vs-trench-drain",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 320/french-drain-vs-trench-drain",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Article route 320/foundation-crack-injection",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 320/foundation-crack-injection",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Article route 320/underslab-waterproofing-planning",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 320/underslab-waterproofing-planning",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Article route 320/shower-waterproofing-beneath-tile",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 320/shower-waterproofing-beneath-tile",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Article route 320/basement-condensation-vs-leaks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 320/basement-condensation-vs-leaks",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Article route 320/waterproofing-consultation-checklist",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 320/waterproofing-consultation-checklist",
+    "passed": true,
+    "details": {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  },
+  {
+    "check": "Article TOC navigation 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article preparation checklist 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 320/foundation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 320/foundation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 320/drainage",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 320/drainage",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 320/concrete",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 320/concrete",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 320/cracks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 320/cracks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 320/underslab",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 320/underslab",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 320/wetareas",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 320/wetareas",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Contact page 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Site-wide search 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Search result navigation 320",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "No uncaught errors 320",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "No automatic external requests 320",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Homepage images 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Homepage horizontal layout 360",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Hero scene toggle 360",
+    "passed": true,
+    "details": [
+      {
+        "key": "exterior",
+        "on": "false"
+      },
+      {
+        "key": "cutaway",
+        "on": "true"
+      }
+    ]
+  },
+  {
+    "check": "Photo hotspot 360/0",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 360/1",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 360/2",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 360/3",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 360/4",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Explorer keyboard 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Real 3D model initialized 360",
+    "passed": true,
+    "details": {
+      "renderer": "canvas3d",
+      "vertices": 15300,
+      "mode": "cutaway",
+      "yaw": 0.61,
+      "distance": 21
+    }
+  },
+  {
+    "check": "3D rotation changes camera 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D zoom changes perspective 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D exterior mode 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D exploded mode 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D cutaway mode 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reduced-motion model 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model opens 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model closes 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Builder pathway 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Specialty pathway 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide requires choice 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide out-of-area qualification 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide copy fallback 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide generated brief content 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Existing external inquiry link 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide closes without body lock 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Mobile menu opens 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal all eight guides 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal images 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal layout 360",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Journal topic search 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal no-results state 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal reset 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal category filter 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article route 360/basement-water-after-rain",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 360/basement-water-after-rain",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Article route 360/exterior-vs-interior-waterproofing",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 360/exterior-vs-interior-waterproofing",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Article route 360/french-drain-vs-trench-drain",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 360/french-drain-vs-trench-drain",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Article route 360/foundation-crack-injection",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 360/foundation-crack-injection",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Article route 360/underslab-waterproofing-planning",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 360/underslab-waterproofing-planning",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Article route 360/shower-waterproofing-beneath-tile",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 360/shower-waterproofing-beneath-tile",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Article route 360/basement-condensation-vs-leaks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 360/basement-condensation-vs-leaks",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Article route 360/waterproofing-consultation-checklist",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 360/waterproofing-consultation-checklist",
+    "passed": true,
+    "details": {
+      "width": 360,
+      "scroll": 360,
+      "body": 360
+    }
+  },
+  {
+    "check": "Article TOC navigation 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article preparation checklist 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 360/foundation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 360/foundation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 360/drainage",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 360/drainage",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 360/concrete",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 360/concrete",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 360/cracks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 360/cracks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 360/underslab",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 360/underslab",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 360/wetareas",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 360/wetareas",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Contact page 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Site-wide search 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Search result navigation 360",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "No uncaught errors 360",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "No automatic external requests 360",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Homepage images 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Homepage horizontal layout 390",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Hero scene toggle 390",
+    "passed": true,
+    "details": [
+      {
+        "key": "exterior",
+        "on": "false"
+      },
+      {
+        "key": "cutaway",
+        "on": "true"
+      }
+    ]
+  },
+  {
+    "check": "Photo hotspot 390/0",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 390/1",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 390/2",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 390/3",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 390/4",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Explorer keyboard 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Real 3D model initialized 390",
+    "passed": true,
+    "details": {
+      "renderer": "canvas3d",
+      "vertices": 15300,
+      "mode": "cutaway",
+      "yaw": 0.61,
+      "distance": 21
+    }
+  },
+  {
+    "check": "3D rotation changes camera 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D zoom changes perspective 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D exterior mode 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D exploded mode 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D cutaway mode 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reduced-motion model 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model opens 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model closes 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Builder pathway 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Specialty pathway 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide requires choice 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide out-of-area qualification 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide copy fallback 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide generated brief content 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Existing external inquiry link 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide closes without body lock 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Mobile menu opens 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal all eight guides 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal images 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal layout 390",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Journal topic search 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal no-results state 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal reset 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal category filter 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article route 390/basement-water-after-rain",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 390/basement-water-after-rain",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Article route 390/exterior-vs-interior-waterproofing",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 390/exterior-vs-interior-waterproofing",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Article route 390/french-drain-vs-trench-drain",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 390/french-drain-vs-trench-drain",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Article route 390/foundation-crack-injection",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 390/foundation-crack-injection",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Article route 390/underslab-waterproofing-planning",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 390/underslab-waterproofing-planning",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Article route 390/shower-waterproofing-beneath-tile",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 390/shower-waterproofing-beneath-tile",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Article route 390/basement-condensation-vs-leaks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 390/basement-condensation-vs-leaks",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Article route 390/waterproofing-consultation-checklist",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 390/waterproofing-consultation-checklist",
+    "passed": true,
+    "details": {
+      "width": 390,
+      "scroll": 390,
+      "body": 390
+    }
+  },
+  {
+    "check": "Article TOC navigation 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article preparation checklist 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 390/foundation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 390/foundation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 390/drainage",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 390/drainage",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 390/concrete",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 390/concrete",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 390/cracks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 390/cracks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 390/underslab",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 390/underslab",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 390/wetareas",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 390/wetareas",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Contact page 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Site-wide search 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Search result navigation 390",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "No uncaught errors 390",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "No automatic external requests 390",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "Homepage images 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Homepage horizontal layout 430",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Hero scene toggle 430",
+    "passed": true,
+    "details": [
+      {
+        "key": "exterior",
+        "on": "false"
+      },
+      {
+        "key": "cutaway",
+        "on": "true"
+      }
+    ]
+  },
+  {
+    "check": "Photo hotspot 430/0",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 430/1",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 430/2",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 430/3",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Photo hotspot 430/4",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Explorer keyboard 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Real 3D model initialized 430",
+    "passed": true,
+    "details": {
+      "renderer": "canvas3d",
+      "vertices": 15300,
+      "mode": "cutaway",
+      "yaw": 0.61,
+      "distance": 21
+    }
+  },
+  {
+    "check": "3D rotation changes camera 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D zoom changes perspective 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D exterior mode 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D exploded mode 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "3D cutaway mode 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Reduced-motion model 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model opens 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Expanded model closes 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Builder pathway 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Specialty pathway 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide requires choice 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide out-of-area qualification 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide copy fallback 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide generated brief content 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Existing external inquiry link 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Guide closes without body lock 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Mobile menu opens 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal all eight guides 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal images 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal layout 430",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Journal topic search 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal no-results state 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal reset 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Journal category filter 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article route 430/basement-water-after-rain",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 430/basement-water-after-rain",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Article route 430/exterior-vs-interior-waterproofing",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 430/exterior-vs-interior-waterproofing",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Article route 430/french-drain-vs-trench-drain",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 430/french-drain-vs-trench-drain",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Article route 430/foundation-crack-injection",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 430/foundation-crack-injection",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Article route 430/underslab-waterproofing-planning",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 430/underslab-waterproofing-planning",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Article route 430/shower-waterproofing-beneath-tile",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 430/shower-waterproofing-beneath-tile",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Article route 430/basement-condensation-vs-leaks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 430/basement-condensation-vs-leaks",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Article route 430/waterproofing-consultation-checklist",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article layout 430/waterproofing-consultation-checklist",
+    "passed": true,
+    "details": {
+      "width": 430,
+      "scroll": 430,
+      "body": 430
+    }
+  },
+  {
+    "check": "Article TOC navigation 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Article preparation checklist 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 430/foundation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 430/foundation",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 430/drainage",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 430/drainage",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 430/concrete",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 430/concrete",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 430/cracks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 430/cracks",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 430/underslab",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 430/underslab",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service page 430/wetareas",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Service images and layout 430/wetareas",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Contact page 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Site-wide search 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "Search result navigation 430",
+    "passed": true,
+    "details": null
+  },
+  {
+    "check": "No uncaught errors 430",
+    "passed": true,
+    "details": []
+  },
+  {
+    "check": "No automatic external requests 430",
+    "passed": true,
+    "details": []
+  }
+]

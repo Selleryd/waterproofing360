@@ -1,0 +1,6404 @@
+{
+  "release": "5.0.0",
+  "passed": 943,
+  "failed": 0,
+  "method": "Actual packaged HTML/assets injected into local Chromium via Playwright. No network deployment or hardware GPU claim.",
+  "suites": [
+    {
+      "suite": "r5",
+      "exit_code": 0,
+      "duration_seconds": 28.24
+    },
+    {
+      "suite": "static",
+      "exit_code": 0,
+      "duration_seconds": 1.37
+    },
+    {
+      "suite": "regression-small",
+      "exit_code": 0,
+      "duration_seconds": 23.78
+    },
+    {
+      "suite": "regression-wide",
+      "exit_code": 0,
+      "duration_seconds": 22.62
+    },
+    {
+      "suite": "advanced",
+      "exit_code": 0,
+      "duration_seconds": 8.56
+    },
+    {
+      "suite": "gallery-nav",
+      "exit_code": 0,
+      "duration_seconds": 13.74
+    },
+    {
+      "suite": "final",
+      "exit_code": 0,
+      "duration_seconds": 3.14
+    },
+    {
+      "suite": "packaging",
+      "exit_code": 0,
+      "duration_seconds": 4.3
+    }
+  ],
+  "core_sha256": {
+    "index.html": "920b69f6c90570caa41f39fd2c1bd8dd5e1474ec8ae4ac3b78cd8eb1beb74136",
+    "assets/logo.png": "286796b3e2cf27fa57b221d9ab782ccd6dbd0a1860ad3b3870578c4461d51f66",
+    "assets/favicon.svg": "544760a12bf4b47a1f704c18c89501135ce81450e0629ececb1403f3856e31e2",
+    "assets/app.js": "348c53456b84fabd69d2cc9e8f3c0116bf5e393daabed60e1422f47727611cd9",
+    "assets/house3d.js": "e66cf2009501a2f7c017798148ca8dbb4031301e3486cdde9eb0a33b59f7ff28",
+    "assets/styles.css": "235664118cb759798167da0a91b28c325cb35ef2573433e794e7f18e64c3b112",
+    "OPEN_PREVIEW.html": "7cd7185746103a366456f62c216819c84f49ec3698fa5e2f04276c5ffea6269a"
+  },
+  "checks": [
+    {
+      "check": "Animated exploded layers settle toward the target",
+      "passed": true,
+      "details": {
+        "renderer": "canvas3d",
+        "explode": 0.5999021887347876,
+        "goal": 0.6,
+        "yaw": 0.8197749999999993,
+        "distance": 21,
+        "vertices": 15300
+      },
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Reset restores cutaway, camera and enabled rain/orbit defaults",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Pointer drag orbits the real model",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Canvas keyboard rotates",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Default rain can be switched off",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Rain can be re-enabled",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Rain animation advances",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Re-enabled auto orbit changes camera",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Manual rotation cancels auto orbit",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Global motion setting stops animation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Reduced motion prevents optional animated rain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Expanded model traps forward focus",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Expanded model releases lock",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Image view pauses 3D rendering",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "3D render completes",
+      "passed": true,
+      "details": {
+        "milliseconds_single_frame": 19.5,
+        "renderer": "canvas3d",
+        "not_a_cross_device_FPS_benchmark": true
+      },
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Leaving the house disposes renderer resources",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Site search keyboard shortcut",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Service CTA carries a preset",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "In-area result is qualified without an outside-area warning",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Actual project brief download event",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Guide back retains previous answer",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "No-graphics fallback preserves accessible detailed view",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Fallback retains all service-zone controls",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Advanced interactions have no uncaught exceptions",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-advanced.json"
+    },
+    {
+      "check": "Reduced-motion user starts with effects disabled",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-final.json"
+    },
+    {
+      "check": "Explicit user Play overrides reduced-motion default",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-final.json"
+    },
+    {
+      "check": "User can pause again",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-final.json"
+    },
+    {
+      "check": "Static Gallery source has correct active nav",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-final.json"
+    },
+    {
+      "check": "Static Gallery source renders all original links",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-final.json"
+    },
+    {
+      "check": "Gallery headings wrap without clipping at enlarged text",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-final.json"
+    },
+    {
+      "check": "Preview exactly matches source route /",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /blog/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /contact/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /gallery/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /services/foundation-leaks/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /services/drainage-systems/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /services/concrete-foundations/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /services/crack-injections/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /services/underslab-waterproofing/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /services/wet-area-waterproofing/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /blog/basement-water-after-rain/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /blog/exterior-vs-interior-waterproofing/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /blog/french-drain-vs-trench-drain/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /blog/foundation-crack-injection/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /blog/underslab-waterproofing-planning/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /blog/shower-waterproofing-beneath-tile/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /blog/basement-condensation-vs-leaks/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview exactly matches source route /blog/waterproofing-consultation-checklist/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Offline preview embeds all initial runtime dependencies",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Preview metadata cannot be indexed",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Production configuration completes in scratch copy",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "All 18 production pages use configured origin and indexability",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Sitemap has 18 absolute configured URLs",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Offline review remains noindex after production build",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "GitHub project-relative asset paths retained",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Invalid production URL is rejected http://example.org",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Invalid production URL is rejected https://example.org/?private=token",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Invalid production URL is rejected https://credentials@example.org",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Original source indexing stays disabled",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-packaging.json"
+    },
+    {
+      "check": "Seven original album IDs match independently recorded homepage hrefs",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Every original gallery destination is unique",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery page preserves all seven source headings",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery source link foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery source link drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery source link concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery source link wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery source link cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery source link underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery source link other",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route services/underslab-waterproofing/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route services/foundation-leaks/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route services/crack-injections/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route services/concrete-foundations/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route services/wet-area-waterproofing/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route services/drainage-systems/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route blog/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route blog/exterior-vs-interior-waterproofing/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route blog/basement-water-after-rain/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route blog/shower-waterproofing-beneath-tile/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route blog/basement-condensation-vs-leaks/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route blog/waterproofing-consultation-checklist/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route blog/french-drain-vs-trench-drain/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route blog/foundation-crack-injection/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route blog/underslab-waterproofing-planning/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route contact/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop/mobile/footer gallery route gallery/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero content within frame 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero rain respects reduced motion 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage has four compact real-project links 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery has no horizontal overflow 320x740",
+      "passed": true,
+      "details": {
+        "w": 320,
+        "doc": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "All gallery cards remain small and within frame 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Seven gallery buttons at every size 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile gallery menu opens 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Navigation dialog fits viewport 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile Gallery route closes menu and unlocks body 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery current-page indicator in mobile menu 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Matching service album link 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Service-project row stays in frame 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery searchable 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery search result route 320x740",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "R4 gallery navigation has no uncaught exceptions 320x740",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero content within frame 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero rain respects reduced motion 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage has four compact real-project links 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery has no horizontal overflow 390x844",
+      "passed": true,
+      "details": {
+        "w": 390,
+        "doc": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "All gallery cards remain small and within frame 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Seven gallery buttons at every size 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile gallery menu opens 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Navigation dialog fits viewport 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile Gallery route closes menu and unlocks body 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery current-page indicator in mobile menu 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Matching service album link 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Service-project row stays in frame 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery searchable 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery search result route 390x844",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "R4 gallery navigation has no uncaught exceptions 390x844",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero content within frame 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero rain respects reduced motion 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage has four compact real-project links 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery has no horizontal overflow 568x320",
+      "passed": true,
+      "details": {
+        "w": 568,
+        "doc": 568,
+        "body": 568
+      },
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "All gallery cards remain small and within frame 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Seven gallery buttons at every size 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile gallery menu opens 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Navigation dialog fits viewport 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile Gallery route closes menu and unlocks body 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery current-page indicator in mobile menu 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Matching service album link 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Service-project row stays in frame 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery searchable 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery search result route 568x320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "R4 gallery navigation has no uncaught exceptions 568x320",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero content within frame 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero rain respects reduced motion 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage has four compact real-project links 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery has no horizontal overflow 844x390",
+      "passed": true,
+      "details": {
+        "w": 844,
+        "doc": 844,
+        "body": 844
+      },
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "All gallery cards remain small and within frame 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Seven gallery buttons at every size 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile gallery menu opens 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Navigation dialog fits viewport 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile Gallery route closes menu and unlocks body 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery current-page indicator in mobile menu 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Matching service album link 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Service-project row stays in frame 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery searchable 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery search result route 844x390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "R4 gallery navigation has no uncaught exceptions 844x390",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero content within frame 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero rain respects reduced motion 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage has four compact real-project links 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery has no horizontal overflow 768x1024",
+      "passed": true,
+      "details": {
+        "w": 768,
+        "doc": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "All gallery cards remain small and within frame 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Seven gallery buttons at every size 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile gallery menu opens 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Navigation dialog fits viewport 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile Gallery route closes menu and unlocks body 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery current-page indicator in mobile menu 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Matching service album link 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Service-project row stays in frame 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery searchable 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery search result route 768x1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "R4 gallery navigation has no uncaught exceptions 768x1024",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero content within frame 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero rain respects reduced motion 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage has four compact real-project links 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery has no horizontal overflow 1100x900",
+      "passed": true,
+      "details": {
+        "w": 1100,
+        "doc": 1100,
+        "body": 1100
+      },
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "All gallery cards remain small and within frame 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Seven gallery buttons at every size 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile gallery menu opens 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Navigation dialog fits viewport 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Mobile Gallery route closes menu and unlocks body 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery current-page indicator in mobile menu 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Matching service album link 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Service-project row stays in frame 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery searchable 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery search result route 1100x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "R4 gallery navigation has no uncaught exceptions 1100x900",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero content within frame 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero rain respects reduced motion 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage has four compact real-project links 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery has no horizontal overflow 1101x900",
+      "passed": true,
+      "details": {
+        "w": 1101,
+        "doc": 1101,
+        "body": 1101
+      },
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "All gallery cards remain small and within frame 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Seven gallery buttons at every size 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop Gallery tab highlighted 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop nav fits horizontally 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Matching service album link 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Service-project row stays in frame 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery searchable 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery search result route 1101x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "R4 gallery navigation has no uncaught exceptions 1101x900",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero content within frame 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero rain respects reduced motion 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage has four compact real-project links 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery has no horizontal overflow 1440x900",
+      "passed": true,
+      "details": {
+        "w": 1440,
+        "doc": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "All gallery cards remain small and within frame 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Seven gallery buttons at every size 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop Gallery tab highlighted 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop nav fits horizontally 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Matching service album link 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Service-project row stays in frame 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery searchable 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery search result route 1440x900",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "R4 gallery navigation has no uncaught exceptions 1440x900",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero content within frame 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Hero rain respects reduced motion 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage has four compact real-project links 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery has no horizontal overflow 1920x1080",
+      "passed": true,
+      "details": {
+        "w": 1920,
+        "doc": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "All gallery cards remain small and within frame 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Seven gallery buttons at every size 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop Gallery tab highlighted 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Desktop nav fits horizontally 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Matching service album link 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Service-project row stays in frame 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery searchable 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Gallery search result route 1920x1080",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "R4 gallery navigation has no uncaught exceptions 1920x1080",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r4-r5-galleries.json"
+    },
+    {
+      "check": "Homepage images 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Homepage horizontal layout 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Hero scene toggle 320",
+      "passed": true,
+      "details": [
+        {
+          "key": "exterior",
+          "on": "false"
+        },
+        {
+          "key": "cutaway",
+          "on": "true"
+        }
+      ],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 320/0",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 320/1",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 320/2",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 320/3",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 320/4",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Explorer keyboard 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Real 3D model initialized 320",
+      "passed": true,
+      "details": {
+        "renderer": "canvas3d",
+        "vertices": 15300,
+        "mode": "cutaway",
+        "yaw": 0.61,
+        "distance": 21
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D rotation changes camera 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D zoom changes perspective 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D exterior mode 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D exploded mode 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D cutaway mode 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Reduced-motion model 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Expanded model opens 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Expanded model closes 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Builder pathway 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Specialty pathway 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide requires choice 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide out-of-area qualification 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide copy fallback 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide generated brief content 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Existing external inquiry link 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide closes without body lock 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Mobile menu opens 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal all eight guides 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal images 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal layout 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal topic search 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal no-results state 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal reset 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal category filter 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 320/basement-water-after-rain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 320/basement-water-after-rain",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 320/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 320/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 320/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 320/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 320/foundation-crack-injection",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 320/foundation-crack-injection",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 320/underslab-waterproofing-planning",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 320/underslab-waterproofing-planning",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 320/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 320/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 320/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 320/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 320/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 320/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article TOC navigation 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article preparation checklist 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 320/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 320/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 320/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 320/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 320/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 320/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 320/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 320/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 320/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 320/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 320/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 320/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Contact page 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Site-wide search 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Search result navigation 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "No uncaught errors 320",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "No automatic external requests 320",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Homepage images 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Homepage horizontal layout 360",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Hero scene toggle 360",
+      "passed": true,
+      "details": [
+        {
+          "key": "exterior",
+          "on": "false"
+        },
+        {
+          "key": "cutaway",
+          "on": "true"
+        }
+      ],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 360/0",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 360/1",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 360/2",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 360/3",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 360/4",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Explorer keyboard 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Real 3D model initialized 360",
+      "passed": true,
+      "details": {
+        "renderer": "canvas3d",
+        "vertices": 15300,
+        "mode": "cutaway",
+        "yaw": 0.61,
+        "distance": 21
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D rotation changes camera 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D zoom changes perspective 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D exterior mode 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D exploded mode 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D cutaway mode 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Reduced-motion model 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Expanded model opens 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Expanded model closes 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Builder pathway 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Specialty pathway 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide requires choice 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide out-of-area qualification 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide copy fallback 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide generated brief content 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Existing external inquiry link 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide closes without body lock 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Mobile menu opens 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal all eight guides 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal images 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal layout 360",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal topic search 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal no-results state 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal reset 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal category filter 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 360/basement-water-after-rain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 360/basement-water-after-rain",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 360/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 360/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 360/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 360/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 360/foundation-crack-injection",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 360/foundation-crack-injection",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 360/underslab-waterproofing-planning",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 360/underslab-waterproofing-planning",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 360/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 360/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 360/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 360/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 360/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 360/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scroll": 360,
+        "body": 360
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article TOC navigation 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article preparation checklist 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 360/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 360/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 360/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 360/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 360/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 360/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 360/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 360/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 360/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 360/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 360/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 360/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Contact page 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Site-wide search 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Search result navigation 360",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "No uncaught errors 360",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "No automatic external requests 360",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Homepage images 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Homepage horizontal layout 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Hero scene toggle 390",
+      "passed": true,
+      "details": [
+        {
+          "key": "exterior",
+          "on": "false"
+        },
+        {
+          "key": "cutaway",
+          "on": "true"
+        }
+      ],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 390/0",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 390/1",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 390/2",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 390/3",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 390/4",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Explorer keyboard 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Real 3D model initialized 390",
+      "passed": true,
+      "details": {
+        "renderer": "canvas3d",
+        "vertices": 15300,
+        "mode": "cutaway",
+        "yaw": 0.61,
+        "distance": 21
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D rotation changes camera 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D zoom changes perspective 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D exterior mode 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D exploded mode 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D cutaway mode 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Reduced-motion model 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Expanded model opens 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Expanded model closes 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Builder pathway 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Specialty pathway 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide requires choice 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide out-of-area qualification 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide copy fallback 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide generated brief content 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Existing external inquiry link 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide closes without body lock 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Mobile menu opens 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal all eight guides 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal images 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal layout 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal topic search 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal no-results state 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal reset 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal category filter 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 390/basement-water-after-rain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 390/basement-water-after-rain",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 390/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 390/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 390/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 390/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 390/foundation-crack-injection",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 390/foundation-crack-injection",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 390/underslab-waterproofing-planning",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 390/underslab-waterproofing-planning",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 390/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 390/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 390/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 390/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 390/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 390/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article TOC navigation 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article preparation checklist 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 390/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 390/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 390/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 390/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 390/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 390/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 390/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 390/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 390/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 390/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 390/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 390/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Contact page 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Site-wide search 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Search result navigation 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "No uncaught errors 390",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "No automatic external requests 390",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Homepage images 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Homepage horizontal layout 430",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Hero scene toggle 430",
+      "passed": true,
+      "details": [
+        {
+          "key": "exterior",
+          "on": "false"
+        },
+        {
+          "key": "cutaway",
+          "on": "true"
+        }
+      ],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 430/0",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 430/1",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 430/2",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 430/3",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Photo hotspot 430/4",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Explorer keyboard 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Real 3D model initialized 430",
+      "passed": true,
+      "details": {
+        "renderer": "canvas3d",
+        "vertices": 15300,
+        "mode": "cutaway",
+        "yaw": 0.61,
+        "distance": 21
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D rotation changes camera 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D zoom changes perspective 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D exterior mode 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D exploded mode 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "3D cutaway mode 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Reduced-motion model 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Expanded model opens 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Expanded model closes 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Builder pathway 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Specialty pathway 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide requires choice 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide out-of-area qualification 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide copy fallback 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide generated brief content 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Existing external inquiry link 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Guide closes without body lock 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Mobile menu opens 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal all eight guides 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal images 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal layout 430",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal topic search 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal no-results state 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal reset 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Journal category filter 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 430/basement-water-after-rain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 430/basement-water-after-rain",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 430/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 430/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 430/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 430/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 430/foundation-crack-injection",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 430/foundation-crack-injection",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 430/underslab-waterproofing-planning",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 430/underslab-waterproofing-planning",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 430/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 430/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 430/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 430/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article route 430/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article layout 430/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "scroll": 430,
+        "body": 430
+      },
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article TOC navigation 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Article preparation checklist 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 430/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 430/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 430/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 430/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 430/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 430/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 430/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 430/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 430/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 430/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service page 430/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Service images and layout 430/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Contact page 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Site-wide search 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Search result navigation 430",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "No uncaught errors 430",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "No automatic external requests 430",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-small.json"
+    },
+    {
+      "check": "Homepage images 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Homepage horizontal layout 768",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Hero scene toggle 768",
+      "passed": true,
+      "details": [
+        {
+          "key": "exterior",
+          "on": "false"
+        },
+        {
+          "key": "cutaway",
+          "on": "true"
+        }
+      ],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 768/0",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 768/1",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 768/2",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 768/3",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 768/4",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Explorer keyboard 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Real 3D model initialized 768",
+      "passed": true,
+      "details": {
+        "renderer": "canvas3d",
+        "vertices": 15300,
+        "mode": "cutaway",
+        "yaw": 0.61,
+        "distance": 21
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D rotation changes camera 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D zoom changes perspective 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D exterior mode 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D exploded mode 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D cutaway mode 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Reduced-motion model 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Expanded model opens 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Expanded model closes 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Builder pathway 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Specialty pathway 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide requires choice 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide out-of-area qualification 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide copy fallback 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide generated brief content 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Existing external inquiry link 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide closes without body lock 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Mobile menu opens 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal all eight guides 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal images 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal layout 768",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal topic search 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal no-results state 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal reset 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal category filter 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 768/basement-water-after-rain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 768/basement-water-after-rain",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 768/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 768/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 768/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 768/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 768/foundation-crack-injection",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 768/foundation-crack-injection",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 768/underslab-waterproofing-planning",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 768/underslab-waterproofing-planning",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 768/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 768/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 768/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 768/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 768/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 768/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scroll": 768,
+        "body": 768
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article TOC navigation 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article preparation checklist 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 768/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 768/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 768/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 768/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 768/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 768/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 768/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 768/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 768/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 768/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 768/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 768/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Contact page 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Site-wide search 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Search result navigation 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "No uncaught errors 768",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "No automatic external requests 768",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Homepage images 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Homepage horizontal layout 1024",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Hero scene toggle 1024",
+      "passed": true,
+      "details": [
+        {
+          "key": "exterior",
+          "on": "false"
+        },
+        {
+          "key": "cutaway",
+          "on": "true"
+        }
+      ],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1024/0",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1024/1",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1024/2",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1024/3",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1024/4",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Explorer keyboard 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Real 3D model initialized 1024",
+      "passed": true,
+      "details": {
+        "renderer": "canvas3d",
+        "vertices": 15300,
+        "mode": "cutaway",
+        "yaw": 0.61,
+        "distance": 21
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D rotation changes camera 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D zoom changes perspective 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D exterior mode 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D exploded mode 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D cutaway mode 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Reduced-motion model 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Expanded model opens 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Expanded model closes 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Builder pathway 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Specialty pathway 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide requires choice 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide out-of-area qualification 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide copy fallback 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide generated brief content 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Existing external inquiry link 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide closes without body lock 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Mobile menu opens 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal all eight guides 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal images 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal layout 1024",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal topic search 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal no-results state 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal reset 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal category filter 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1024/basement-water-after-rain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1024/basement-water-after-rain",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1024/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1024/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1024/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1024/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1024/foundation-crack-injection",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1024/foundation-crack-injection",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1024/underslab-waterproofing-planning",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1024/underslab-waterproofing-planning",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1024/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1024/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1024/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1024/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1024/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1024/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scroll": 1024,
+        "body": 1024
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article TOC navigation 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article preparation checklist 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1024/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1024/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1024/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1024/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1024/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1024/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1024/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1024/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1024/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1024/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1024/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1024/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Contact page 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Site-wide search 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Search result navigation 1024",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "No uncaught errors 1024",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "No automatic external requests 1024",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Homepage images 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Homepage horizontal layout 1440",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Hero scene toggle 1440",
+      "passed": true,
+      "details": [
+        {
+          "key": "exterior",
+          "on": "false"
+        },
+        {
+          "key": "cutaway",
+          "on": "true"
+        }
+      ],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1440/0",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1440/1",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1440/2",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1440/3",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1440/4",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Explorer keyboard 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Real 3D model initialized 1440",
+      "passed": true,
+      "details": {
+        "renderer": "canvas3d",
+        "vertices": 15300,
+        "mode": "cutaway",
+        "yaw": 0.61,
+        "distance": 21
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D rotation changes camera 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D zoom changes perspective 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D exterior mode 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D exploded mode 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D cutaway mode 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Reduced-motion model 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Expanded model opens 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Expanded model closes 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Builder pathway 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Specialty pathway 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide requires choice 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide out-of-area qualification 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide copy fallback 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide generated brief content 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Existing external inquiry link 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide closes without body lock 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Desktop solution menu 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal all eight guides 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal images 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal layout 1440",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal topic search 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal no-results state 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal reset 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal category filter 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1440/basement-water-after-rain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1440/basement-water-after-rain",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1440/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1440/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1440/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1440/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1440/foundation-crack-injection",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1440/foundation-crack-injection",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1440/underslab-waterproofing-planning",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1440/underslab-waterproofing-planning",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1440/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1440/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1440/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1440/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1440/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1440/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article TOC navigation 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article preparation checklist 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1440/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1440/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1440/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1440/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1440/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1440/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1440/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1440/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1440/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1440/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1440/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1440/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Contact page 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Site-wide search 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Search result navigation 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "No uncaught errors 1440",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "No automatic external requests 1440",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Homepage images 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Homepage horizontal layout 1920",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Hero scene toggle 1920",
+      "passed": true,
+      "details": [
+        {
+          "key": "exterior",
+          "on": "false"
+        },
+        {
+          "key": "cutaway",
+          "on": "true"
+        }
+      ],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1920/0",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1920/1",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1920/2",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1920/3",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Photo hotspot 1920/4",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Explorer keyboard 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Real 3D model initialized 1920",
+      "passed": true,
+      "details": {
+        "renderer": "canvas3d",
+        "vertices": 15300,
+        "mode": "cutaway",
+        "yaw": 0.61,
+        "distance": 21
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D rotation changes camera 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D zoom changes perspective 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D exterior mode 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D exploded mode 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "3D cutaway mode 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Reduced-motion model 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Expanded model opens 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Expanded model closes 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Builder pathway 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Specialty pathway 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide requires choice 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide out-of-area qualification 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide copy fallback 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide generated brief content 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Existing external inquiry link 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Guide closes without body lock 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Desktop solution menu 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal all eight guides 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal images 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal layout 1920",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal topic search 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal no-results state 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal reset 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Journal category filter 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1920/basement-water-after-rain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1920/basement-water-after-rain",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1920/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1920/exterior-vs-interior-waterproofing",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1920/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1920/french-drain-vs-trench-drain",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1920/foundation-crack-injection",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1920/foundation-crack-injection",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1920/underslab-waterproofing-planning",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1920/underslab-waterproofing-planning",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1920/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1920/shower-waterproofing-beneath-tile",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1920/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1920/basement-condensation-vs-leaks",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article route 1920/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article layout 1920/waterproofing-consultation-checklist",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scroll": 1920,
+        "body": 1920
+      },
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article TOC navigation 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Article preparation checklist 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1920/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1920/foundation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1920/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1920/drainage",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1920/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1920/concrete",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1920/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1920/cracks",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1920/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1920/underslab",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service page 1920/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Service images and layout 1920/wetareas",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Contact page 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Site-wide search 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Search result navigation 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "No uncaught errors 1920",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "No automatic external requests 1920",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5-wide.json"
+    },
+    {
+      "check": "Original supplied logo byte-for-byte",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/concrete.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/cracks.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/cutaway.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/drainage.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/evening.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/foundation.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/hero-mobile.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/hero.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/project-concrete.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/project-cracks.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/project-drainage.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/project-foundation.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/project-other.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/project-underslab.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/project-wetareas.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/underslab.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: assets/wetarea.webp",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/articles.json",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/basement-condensation-vs-leaks.md",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/basement-water-after-rain.md",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/exterior-vs-interior-waterproofing.md",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/foundation-crack-injection.md",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/french-drain-vs-trench-drain.md",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/galleries.json",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/services.json",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/shower-waterproofing-beneath-tile.md",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/sources.json",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/underslab-waterproofing-planning.md",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "R4 asset/content preserved: content/waterproofing-consultation-checklist.md",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /blog/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /contact/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /gallery/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /services/foundation-leaks/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /services/drainage-systems/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /services/concrete-foundations/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /services/crack-injections/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /services/underslab-waterproofing/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /services/wet-area-waterproofing/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /blog/basement-water-after-rain/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /blog/exterior-vs-interior-waterproofing/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /blog/french-drain-vs-trench-drain/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /blog/foundation-crack-injection/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /blog/underslab-waterproofing-planning/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /blog/shower-waterproofing-beneath-tile/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /blog/basement-condensation-vs-leaks/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "All brand placements use original PNG: /blog/waterproofing-consultation-checklist/",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Hero Pause effects control removed from source and preview",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Homepage Rain and Orbit controls selected before JS initialization",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Favicon reuses uploaded pixels rather than prior replacement artwork",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Exact logo fits responsive header 320x740",
+      "passed": true,
+      "details": {
+        "w": 320,
+        "sw": 320,
+        "logoW": 168,
+        "logoH": 50.390625,
+        "naturalW": 300,
+        "naturalH": 90,
+        "brandRight": 210,
+        "controlsLeft": 252,
+        "navBottom": 80.390625,
+        "within": true
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Hero effects on without hero pause button 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Mobile logo and menu remain in frame 320",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Exact logo fits responsive header 390x844",
+      "passed": true,
+      "details": {
+        "w": 390,
+        "sw": 390,
+        "logoW": 190,
+        "logoH": 57,
+        "naturalW": 300,
+        "naturalH": 90,
+        "brandRight": 236,
+        "controlsLeft": 322,
+        "navBottom": 87,
+        "within": true
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Hero effects on without hero pause button 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Mobile logo and menu remain in frame 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Live 3D starts raining and orbiting 390",
+      "passed": true,
+      "details": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.6698050000000001,
+        "time": 0.3987000000000003,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Rain timeline and camera advance by default 390",
+      "passed": true,
+      "details": {
+        "before": {
+          "rain": true,
+          "orbit": true,
+          "motion": true,
+          "yaw": 0.6698050000000001,
+          "time": 0.3987000000000003,
+          "mode": "cutaway",
+          "renderer": "canvas3d",
+          "visible": true,
+          "rainButton": "true",
+          "orbitButton": "true"
+        },
+        "after": {
+          "rain": true,
+          "orbit": true,
+          "motion": true,
+          "yaw": 0.7073050000000004,
+          "time": 0.6487000000000004,
+          "mode": "cutaway",
+          "renderer": "canvas3d",
+          "visible": true,
+          "rainButton": "true",
+          "orbitButton": "true"
+        }
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Rain toggle turns off only rain 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Orbit toggle turns off only orbit 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Reset restores both enabled defaults 390",
+      "passed": true,
+      "details": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.61,
+        "time": 1.0654000000000006,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Manual camera control pauses orbit and retains rain 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Keyboard Home restores both defaults 390",
+      "passed": true,
+      "details": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.61,
+        "time": 1.2319000000000009,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Keyboard rotation synchronizes Orbit selection 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Detailed view suspends live renderer 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Reopening Live 3D retains enabled effects 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Gallery still has seven distinct albums 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Returning home reinitializes Live 3D defaults 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Footer accessibility setting stops effects 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Footer re-enable restores default motion 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Header logo returns home 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Footer original logo readable at native aspect 390",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "No uncaught exceptions 390",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Exact logo fits responsive header 568x320",
+      "passed": true,
+      "details": {
+        "w": 568,
+        "sw": 568,
+        "logoW": 190,
+        "logoH": 57,
+        "naturalW": 300,
+        "naturalH": 90,
+        "brandRight": 236,
+        "controlsLeft": 500,
+        "navBottom": 87,
+        "within": true
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Hero effects on without hero pause button 568",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Mobile logo and menu remain in frame 568",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Exact logo fits responsive header 768x1024",
+      "passed": true,
+      "details": {
+        "w": 768,
+        "sw": 768,
+        "logoW": 190,
+        "logoH": 57,
+        "naturalW": 300,
+        "naturalH": 90,
+        "brandRight": 250.046875,
+        "controlsLeft": 685.953125,
+        "navBottom": 103,
+        "within": true
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Hero effects on without hero pause button 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Mobile logo and menu remain in frame 768",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Exact logo fits responsive header 1100x900",
+      "passed": true,
+      "details": {
+        "w": 1100,
+        "sw": 1100,
+        "logoW": 190,
+        "logoH": 57,
+        "naturalW": 300,
+        "naturalH": 90,
+        "brandRight": 260,
+        "controlsLeft": 1008,
+        "navBottom": 103,
+        "within": true
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Hero effects on without hero pause button 1100",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Mobile logo and menu remain in frame 1100",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Exact logo fits responsive header 1101x900",
+      "passed": true,
+      "details": {
+        "w": 1101,
+        "sw": 1101,
+        "logoW": 210,
+        "logoH": 63,
+        "naturalW": 300,
+        "naturalH": 90,
+        "brandRight": 284.03125,
+        "controlsLeft": 453.59375,
+        "navBottom": 109,
+        "within": true
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Hero effects on without hero pause button 1101",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Desktop solutions menu works 1101",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Exact logo fits responsive header 1440x900",
+      "passed": true,
+      "details": {
+        "w": 1440,
+        "sw": 1440,
+        "logoW": 210,
+        "logoH": 63,
+        "naturalW": 300,
+        "naturalH": 90,
+        "brandRight": 299.203125,
+        "controlsLeft": 713.28125,
+        "navBottom": 109,
+        "within": true
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Hero effects on without hero pause button 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Desktop solutions menu works 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Live 3D starts raining and orbiting 1440",
+      "passed": true,
+      "details": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.66478,
+        "time": 0.3652000000000003,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Rain timeline and camera advance by default 1440",
+      "passed": true,
+      "details": {
+        "before": {
+          "rain": true,
+          "orbit": true,
+          "motion": true,
+          "yaw": 0.66478,
+          "time": 0.3652000000000003,
+          "mode": "cutaway",
+          "renderer": "canvas3d",
+          "visible": true,
+          "rainButton": "true",
+          "orbitButton": "true"
+        },
+        "after": {
+          "rain": true,
+          "orbit": true,
+          "motion": true,
+          "yaw": 0.7047850000000001,
+          "time": 0.6319000000000002,
+          "mode": "cutaway",
+          "renderer": "canvas3d",
+          "visible": true,
+          "rainButton": "true",
+          "orbitButton": "true"
+        }
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Rain toggle turns off only rain 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Orbit toggle turns off only orbit 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Reset restores both enabled defaults 1440",
+      "passed": true,
+      "details": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.6224949999999998,
+        "time": 2.381799999999999,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Manual camera control pauses orbit and retains rain 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Keyboard Home restores both defaults 1440",
+      "passed": true,
+      "details": {
+        "rain": true,
+        "orbit": true,
+        "motion": true,
+        "yaw": 0.617515,
+        "time": 2.8485,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "true",
+        "orbitButton": "true"
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Keyboard rotation synchronizes Orbit selection 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Detailed view suspends live renderer 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Reopening Live 3D retains enabled effects 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Gallery still has seven distinct albums 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Returning home reinitializes Live 3D defaults 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Footer accessibility setting stops effects 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Footer re-enable restores default motion 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Header logo returns home 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Footer original logo readable at native aspect 1440",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "No uncaught exceptions 1440",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Exact logo fits responsive header 1920x1080",
+      "passed": true,
+      "details": {
+        "w": 1920,
+        "sw": 1920,
+        "logoW": 210,
+        "logoH": 63,
+        "naturalW": 300,
+        "naturalH": 90,
+        "brandRight": 526,
+        "controlsLeft": 966.484375,
+        "navBottom": 109,
+        "within": true
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Hero effects on without hero pause button 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Desktop solutions menu works 1920",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Reduced motion disables hero animation automatically",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Reduced motion disables live rain/orbit and unselects controls",
+      "passed": true,
+      "details": {
+        "rain": false,
+        "orbit": false,
+        "motion": false,
+        "yaw": 0.61,
+        "time": 0,
+        "mode": "cutaway",
+        "renderer": "canvas3d",
+        "visible": true,
+        "rainButton": "false",
+        "orbitButton": "false"
+      },
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Reset respects reduced motion",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Deliberate footer Motion on permits animation",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Live OS setting change stops all effects",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-r5.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /blog/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /contact/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /gallery/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /services/foundation-leaks/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /services/drainage-systems/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /services/concrete-foundations/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /services/crack-injections/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /services/underslab-waterproofing/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /services/wet-area-waterproofing/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /blog/basement-water-after-rain/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /blog/exterior-vs-interior-waterproofing/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /blog/french-drain-vs-trench-drain/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /blog/foundation-crack-injection/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /blog/underslab-waterproofing-planning/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /blog/shower-waterproofing-beneath-tile/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /blog/basement-condensation-vs-leaks/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Main page content preserved except requested controls: /blog/waterproofing-consultation-checklist/",
+      "passed": true,
+      "suite_file": "checks-scope.json"
+    },
+    {
+      "check": "Local links and assets index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets 404.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets services/underslab-waterproofing/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO services/underslab-waterproofing/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets services/foundation-leaks/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO services/foundation-leaks/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets services/crack-injections/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO services/crack-injections/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets services/concrete-foundations/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO services/concrete-foundations/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets services/wet-area-waterproofing/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO services/wet-area-waterproofing/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets services/drainage-systems/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO services/drainage-systems/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets blog/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO blog/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets blog/exterior-vs-interior-waterproofing/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO blog/exterior-vs-interior-waterproofing/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets blog/basement-water-after-rain/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO blog/basement-water-after-rain/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets blog/shower-waterproofing-beneath-tile/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO blog/shower-waterproofing-beneath-tile/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets blog/basement-condensation-vs-leaks/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO blog/basement-condensation-vs-leaks/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets blog/waterproofing-consultation-checklist/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO blog/waterproofing-consultation-checklist/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets blog/french-drain-vs-trench-drain/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO blog/french-drain-vs-trench-drain/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets blog/foundation-crack-injection/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO blog/foundation-crack-injection/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets blog/underslab-waterproofing-planning/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO blog/underslab-waterproofing-planning/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets contact/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO contact/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Local links and assets gallery/index.html",
+      "passed": true,
+      "details": [],
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Semantic page and preview SEO gallery/index.html",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "All 18 page titles and descriptions unique",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "Eight full sourced guides",
+      "passed": true,
+      "details": {
+        "words": 5838,
+        "count": 8
+      },
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "JavaScript parses app.js",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "JavaScript parses house3d.js",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "No bundled fonts or secrets",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    },
+    {
+      "check": "No false review ratings or prototype marketing copy in pages",
+      "passed": true,
+      "details": null,
+      "suite_file": "checks-static.json"
+    }
+  ]
+}
